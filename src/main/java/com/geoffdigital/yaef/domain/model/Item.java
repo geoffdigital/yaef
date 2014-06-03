@@ -20,7 +20,11 @@ public class Item implements Entity<Item> {
 		this.sku = sku;
 		this.description = description;
 	}
-
+	
+	public Long getId() {
+		return id;
+	}
+	
 	public Sku getSku() {
 		return sku;
 	}

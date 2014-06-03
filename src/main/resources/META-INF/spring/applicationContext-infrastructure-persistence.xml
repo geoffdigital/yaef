@@ -39,7 +39,7 @@
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
 	<bean id="itemRepository"
-		class="ddd.poc.help.infrastructure.persistence.hibernate.ItemRepositoryHibernate">
+		class="com.geoffdigital.yaef.infrastructure.persistance.hibernate.ItemRepositoryHibernate">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 
